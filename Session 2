@@ -1,0 +1,17 @@
+Terms
+------------------------------------------------------------------------------
+Images: Bootable DVD - to make new OS.
+
+
+
+----------------------------------------------------------------------------
+Commands
+----------------------------------------------------------------------------
+
+1. docker info : if docker is running then it will show its details.
+2. docker rm -f $(docker ps -a -q) : Clears all the container.
+3. docker images : get the list of all the images
+4. 
+
+
+
