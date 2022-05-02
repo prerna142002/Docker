@@ -26,7 +26,8 @@ Commands
 8. lscpu : the info about the cpus and the no. of cpus.
 9. ping : to check the connection with the IP address.
 10. yum install net-tools : gives environment for ifconfig command to run.
-11. systemctl start httpd : start the services for centos
+11. systemctl start httpd : start the services for centos of httpd
+12. 
 
 
 
