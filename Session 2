@@ -1,7 +1,13 @@
 Terms
 ------------------------------------------------------------------------------
 Images: Bootable DVD - to make new OS.
+Network Setting give the information about the IP Address of the container.
+Docker has good connectivty with all the parts.
 
+--------------------------------------------------------------------------
+Session - Task
+--------------------------------------------------------------------------
+Set-up : Apache Web Server
 
 
 ----------------------------------------------------------------------------
@@ -11,7 +17,12 @@ Commands
 1. docker info : if docker is running then it will show its details.
 2. docker rm -f $(docker ps -a -q) : Clears all the container.
 3. docker images : get the list of all the images
-4. 
+4. docker container run -it --name web centos:7 : running and naming the container.
+5. docker ps : the details of the container
+6. docker container inspect web : basic info about the container which is running.
+7. free -m : the memory information of the OS 
+8. lscpu : the info about the cpus and the no. of cpus.
+9. ping : to check the connection with the IP address.
 
 
 
