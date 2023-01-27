@@ -1,0 +1,22 @@
+WHAT IS CONTAINER?
+A way to package application with all the necessary dependencies and configuration.
+Portable artifact, easily shared and moved around.
+Make development and deployment more efficient
+
+WHERE DO CONTAINERS LIVE?
+Container Repository
+Private repo
+Public repo for Docker
+
+HOW CONTAINERS IMRPOVE DEVELOPMENT PROCESS?
+
+Before Containers:
+Each person had to install binaries on their system.
+Command could go wrong and all.
+
+After Containers:
+Own isolated environmnent
+Packaged with all needed configuration
+
+
+
