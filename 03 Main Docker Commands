@@ -2,3 +2,18 @@ Difference between Images and Container:
 Container is a running environment for IMAGE
 Port Binded : talk to application running inside of container. ( 5000 )
 Virtual file system.
+
+1. docker pull <image_name>
+2. docker images
+3. docker name <image_name>
+4. docker run -d <image_name> : ID
+5. docker ps : List of all the images working 
+6. docker stop <image_id>
+7. docker ps -a : history (lists running and stopped container)
+8. docker run -p<host_port>:<container_port> 
+
+DIFFERENCE BETWEEN PORT AND HOST PORT
+-------------------------------------
+1. Multiple containers can run on your host machine
+2. Laptop has only certain ports available, need to create so-caalled binding b/w a poert that your laptop your host machine and container.
+
