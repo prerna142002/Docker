@@ -10,5 +10,30 @@ OS Kernel
 Hardware
 
 Kernel communicates with hardware
-Applications run on Kernerl layer
+Applications run on Kernel layer
+
+The difference is there on the layer which is virtualized.
+
+Docker virtualizes the Applications Layer and uses the Kernel of the host.
+Virtual Box on the other hand has applications layer on its own kernel. So, it virtualizes its complete OS.
+It puts up its own Kernel on the Hardware.
+
+SIZE:
+The size of Docker is very small because they have to implement its own layer.
+
+FAST:
+Docker are faster than VMs.
+
+COMPATIBILTY:
+VM of any OS can run on any OS host.
+Older version than Windows 10 and MAC we cannot So, 1st step while installing is to check whether your hosts can actually run Docker nativally. Which means is the kernel comapatible with Docker images.
+So, a workaround is that you install a technology called Docker Toolbox which abstracts way the kernel to make it possible for your hosts to run differernt docker images.
+
+
+COMPONENTS
+----------
+Docker Engine: Important to run
+Docker CLI Client : Execute Docker Commands
+Docker Composer : Orchestrate if you have multiple containers 
+
 
