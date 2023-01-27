@@ -2,7 +2,13 @@
 2. Different Levels of abstraction
 3. Why Linux-based docker containers dont run on Windows
 
-
+Operating System
+----------------
+2 Layers:
 Applications
 OS Kernel
 Hardware
+
+Kernel communicates with hardware
+Applications run on Kernerl layer
+
