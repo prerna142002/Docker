@@ -1,0 +1,8 @@
+1. Docker on OS Level
+2. Different Levels of abstraction
+3. Why Linux-based docker containers dont run on Windows
+
+
+Applications
+OS Kernel
+Hardware
