@@ -1,15 +1,17 @@
 WHAT IS CONTAINER?
+------------------
 A way to package application with all the necessary dependencies and configuration.
 Portable artifact, easily shared and moved around.
 Make development and deployment more efficient
 
 WHERE DO CONTAINERS LIVE?
+-------------------------
 Container Repository
 Private repo
 Public repo for Docker
 
 HOW CONTAINERS IMRPOVE DEVELOPMENT PROCESS?
-
+-------------------------------------------
 Before Containers:
 Each person had to install binaries on their system.
 Command could go wrong and all.
@@ -19,5 +21,31 @@ Own isolated environmnent
 Packaged with all needed configuration
 one command to install the app
 run same app with 2 different versions.
+
+
+APPLICATION DEPLOYMENT
+----------------------
+Before Containers:
+1. Deployment Team will produce artifacts together with a set of instructions and configure those artifcats on servers. So, you would have a jar file or somthing
+2. Then DT will sent it to the operations team and will set the enviroment of those application.
+
+Configuration on the server needed.
+Dependency version conflicts
+textual guide of deployment
+misunderstandings
+
+After Containers:
+Developers and Operations work together to package the application in a container.
+No enviromental configuration needed on server - except Docker Runtime
+
+TECHINALLY WHAT IS CONTAINER
+-----------------------------
+Layer of images
+Mostly Linux Base Image, because small is size
+Application image on top
+
+
+
+
 
 
