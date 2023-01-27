@@ -1,0 +1,4 @@
+Difference between Images and Container:
+Container is a running environment for IMAGE
+Port Binded : talk to application running inside of container. ( 5000 )
+Virtual file system.
