@@ -44,6 +44,22 @@ Layer of images
 Mostly Linux Base Image, because small is size
 Application image on top
 
+Separate images are downloaded 
+Different layers are downloaded so when downloading next version there will be no issue
+
+DIFFERENCE BETWEEN DOCKER IMAGE AND CONTAINER
+---------------------------------------------
+1. Image is the actual package
+2. Image is the artifact that can be moved around
+3. So basically when it is not moving then it is image
+
+1. Docker Container starts the application
+2. Container enviroment is created
+3. When it is being used then it is container i.e. when I download the image to my local computer.
+
+
+
+
 
 
 
