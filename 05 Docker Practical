@@ -1,0 +1,8 @@
+Docker Network
+1. Isloted Docker Network -> In which applications can interact with ech other but for application outside this needs to connect using the port number in it.
+
+1. docker network ls : shows the list of network
+2. docker network create mongo-create
+
+RUN MONGO CONTAINERS:
+1. docker run -p 2mongo
