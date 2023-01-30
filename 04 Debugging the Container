@@ -1,0 +1,7 @@
+1. docker logs <container_id>
+2. docker log <container_name>
+3. docker run -d -p<host_number>:<container_number> --name <name_of_container> <application_name>:<version>
+4. docker exec -it <container_id> /bin/bash => it : iteractive terminal
+5. docker exec -it <container_name> /bin/bash
+5. docker run : where you crete new container from an image ( create a new container )
+6. docker start : not working with image but with the container ( restrat the container)
