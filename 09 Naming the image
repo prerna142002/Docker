@@ -1,0 +1,1 @@
+docker build -t <user_name>/<name_of_dockerfile>:<version_name(e.g.:latest)> .
