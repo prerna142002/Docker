@@ -4,5 +4,4 @@ Docker Network
 1. docker network ls : shows the list of network
 2. docker network create mongo-create
 
-RUN MONGO CONTAINERS:
-1. docker run -p 2mongo
+Whatever is happening in the docker is inside the container the world outside the container doesnot know what is happening inside the container also cannot interact with the conatainer.
