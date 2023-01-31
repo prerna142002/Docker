@@ -1,0 +1,20 @@
+1. Create Docker File: Write Command and instructions inside that and fyrthur being processed by the docker client.
+2. Docker Client gives this file to Docker Server and commands that are insatlled in the system.
+3. Custom Image after processing.
+
+Behind the Scenes:
+Set of instructions are written in the DockerFile.
+Passed to CLI.
+
+Step-01:
+Custom Image is empty
+Foremost what we are gonna do is take a copy of OS and deploy up in the Custome Image
+
+Step-02:
+Take the files in the Custom Image and make a temporary container out of it.
+Install the program on the temporary container.
+
+Step-03:
+Replace the existing files in the custom image with the container one.
+Continer is kind-of deleting (caching)
+
