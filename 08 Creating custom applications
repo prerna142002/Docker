@@ -51,3 +51,10 @@ CMD [ "mongod" ]
   docker exec -it <container_id> sh
   After this we can see the shell and in that we can see that the working directory comes out to be /data
 4. Just test this in order to check the by simply typing the command show dbs
+
+
+STEPS TO BUILD AND START
+1. BUILD: docker build -t noobdeveloper/nodeapp . 
+2. RUN: docker run noobdeveloper/nodeapp
+2. In the above command you will see that we are not able to open in our localhost so for that we neeed to setup and we can open on 400 port number : docker run -p 4000:8000 noobdeveloper/nodeapp
+
