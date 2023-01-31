@@ -1,0 +1,10 @@
+Whenever the temporary container is created its not techincally being deleted.
+
+If we have already build the Dockerfile which we havecreated then the message will come up which will be saying
+using cache.
+
+Cache - Usable stored in the cache memory
+This is why Docker performace is super.
+
+
+
