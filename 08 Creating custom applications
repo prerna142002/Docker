@@ -16,5 +16,38 @@ Install the program on the temporary container.
 
 Step-03:
 Replace the existing files in the custom image with the container one.
-Continer is kind-of deleting (caching)
+Container is kind-of deleting (caching)
 
+**All commands in except the FROM one in the Dockerfile creates a separte container but not all times. Just assume for now.
+
+1. Create the Dockerfile :
+
+#step1 - BASE FILE 
+# Operating System - some files in h/w we can interact with.
+# Just a Linux
+FROM alpine
+
+#step2 - Install a software
+RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.6/main' >> /etc/apk/repositories
+RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.6/community' >> /etc/apk/repositories
+
+RUN apk update
+RUN apk add mongodb=3.4.4-r0
+
+RUN mongo --version
+
+#step2.5 - Configure that software
+VOLUME [ "/data/db" ]
+WORKDIR /data
+EXPOSE 27017
+
+#step3 - Set Default Commands
+CMD [ "mongod" ]
+
+*This will not run for now as it is not holding anymore.
+
+2. Open the terminal and type the command -> docker build .
+3. The image will be build and we can open the container
+  docker exec -it <container_id> sh
+  After this we can see the shell and in that we can see that the working directory comes out to be /data
+4. Just test this in order to check the by simply typing the command show dbs
