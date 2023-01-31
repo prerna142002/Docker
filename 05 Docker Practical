@@ -5,3 +5,7 @@ Docker Network
 2. docker network create mongo-create
 
 Whatever is happening in the docker is inside the container the world outside the container doesnot know what is happening inside the container also cannot interact with the conatainer.
+
+1. docker exec -it 60826e73c13c bash
+2. docker stop : closes all when the work is done.
+3. docker kill : no matter work done or not it will be killed.
