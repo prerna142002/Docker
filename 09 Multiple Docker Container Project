@@ -1,0 +1,8 @@
+1. Create a folder startapp
+2. npm init -y : to make sure that we dont need to enter the details again and again
+
+Enter the name of the directories or file names in the .dockerignore so that we dont need to remove that mamually 
+
+Creating the docker-compose
+depends_on -: for images dependent on other images
+
